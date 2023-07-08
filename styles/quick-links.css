@@ -1,0 +1,26 @@
+.quick-links{
+  background-color: rgba(248,219,5,255);
+  height: 1100px;
+  margin-top:-20px;
+}
+
+.link-list{
+  list-style-type: none;
+  font-family: PT Sans;
+  line-height: 50px;
+  font-size: 20px;
+}
+.quick-links-container{
+  height: 1000px;
+  width: 1900px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.quick-links-head{
+
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: underline;
+}

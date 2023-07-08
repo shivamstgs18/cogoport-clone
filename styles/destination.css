@@ -1,0 +1,10 @@
+.destinations{
+  background-color:rgb(235, 190, 0);
+  height: 600px;
+}
+.destination-col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 100px;
+}

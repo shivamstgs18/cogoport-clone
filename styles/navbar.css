@@ -1,0 +1,64 @@
+.navbar{
+  background-color: rgba(248,219,5,255);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+}
+
+.navbar.scrolled{
+  top:0;
+}
+
+.left-section{
+  width: 400px;
+}
+.cogoport_logo_navbar{
+  margin-left:120px;
+  width:200px;
+  height:auto;
+  margin-top:10px;
+}
+.middle-section{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  padding-left: 130px;
+  padding-right: 130px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.right-section{
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: top;
+}
+.login-click{
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 12px;
+}
+.signup-button{
+  background-color:rgb(238, 52, 37);
+  color: white;
+  font-family: PT sans;
+  font-weight: 700;
+  font-size: 20px;
+  border-style: solid;
+  margin-left: 18px;
+  border-radius: 10px;
+  padding:2px 5px 2px 5px;
+  border-color:rgb(238, 52, 37);
+  height:50px;
+  width:120px;
+}

@@ -1,0 +1,27 @@
+.next-level{
+  display: flex;
+  flex-direction: row;
+  height: 180px;
+  align-items: center;
+  background-color: rgba(248,219,5,255);
+}
+.nl-msg{
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 45px;
+  margin-left: 150px;
+}
+.nl-button{
+  height: 60px;
+  width: 180px;
+  border-radius: 6px;
+  border: none;
+  font-family: PT Sans;
+  color: white;
+  background-color:rgb(238, 52, 37);
+  font-weight: 700;
+  font-size: 20px;
+  margin-left:500px;
+  align-items: center;
+  justify-content: center;
+}

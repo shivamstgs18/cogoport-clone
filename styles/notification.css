@@ -1,0 +1,29 @@
+
+.body{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  background-color:rgb(252, 247, 247);
+}
+.notification_header{
+  background-color: rgb(238, 52, 37);
+  display:flex;
+  height: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+}
+.notification_bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.notification_msg{
+  padding-left: 10px;
+  color: white;
+  font-family: PT Sans;
+  font-weight: 600;
+  font-size: 22px;
+}

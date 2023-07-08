@@ -1,0 +1,110 @@
+.work-diagram{
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  margin-top: -15px;
+}
+
+.two-float{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.floated-info1{
+  background-color:rgb(255, 255, 255);
+  height:390px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(169,188,218,.65);
+  width: 440px;
+  margin-left: 70px;
+ }
+ .floated-info2{
+  background-color:rgb(255, 255, 255);
+  height:390px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(169,188,218,.65);
+  width: 440px;
+  margin-top: 100px;
+  margin-left: 70px;
+ }
+ .floated-info3{
+  background-color:rgb(255, 255, 255);
+  height:390px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(169,188,218,.65);
+  width: 440px;
+  margin-right: 70px;
+ }
+ .floated-info4{
+  background-color:rgb(255, 255, 255);
+  height:390px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(169,188,218,.65);
+  width: 440px;
+  margin-right: 70px;
+  margin-top: 100px;
+ }
+ .stage{
+
+  font-family: Arial;
+  color: rgb(238, 52, 37);
+  font-weight: 700;
+  font-size:25px;
+  padding-left: 10px;
+  padding-top: 18px;
+ }
+
+ .heading{
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 15px;
+ }
+ .logo-header{
+  display: flex;
+  margin-top: -16px;
+  padding-left: 10px;
+  flex-direction: row;
+  align-items: center;
+ }
+ .bullet-info{
+
+  margin-top: -30px;
+ }
+ .sentence{
+  
+  font-family: PT Sans;
+  font-size: 24px;
+ }
+.left-work-section{
+  width: 600px;
+}
+.middle-work-section{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.upper-arrows{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -35px;
+  z-index: 100;
+}
+.down-arrows{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -55px;
+  z-index: 100;
+}
+.right-work-section{
+  width: 600px;
+}

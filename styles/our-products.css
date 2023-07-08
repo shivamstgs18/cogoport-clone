@@ -1,0 +1,87 @@
+.product-header{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: Ubuntu;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.our-products{
+  display: flex;
+  flex-direction: column;
+}
+.product-grid{
+  display: flex;
+  height: 330px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.product-grid-two{
+  display: flex;
+  height: 330px;
+  flex-direction: row;
+  align-items: center;
+}
+.grid-title{
+  font-size: 35px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  margin-left: 100px;
+  width: 500px;
+}
+.grid-title-two{
+  font-size: 35px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  height: 100px;
+  margin-left: 100px;
+  width: 500px;
+}
+.row-grid{
+  margin-left:10px;
+  width:1300px;
+  height:300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.row-grid-two{
+  margin-left:13px;
+  width:620px;
+  height:300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-prac{
+  display: flex;
+  flex-direction: column;
+  height:260px;
+  width: 280px;
+  border-radius: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-color:rgb(252, 247, 247);
+  box-shadow: 1px 2px 7px rgba(169,188,218,.65);
+
+}
+.button-prac:hover{
+
+  border-color:rgb(238, 52, 37);
+}
+.para{
+  font-family: Ubuntu;
+  font-size: 25px;
+  font-weight: 700;
+}
+.further{
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  color:rgb(238, 52, 37);
+}

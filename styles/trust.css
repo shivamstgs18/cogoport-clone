@@ -1,0 +1,39 @@
+.trust-header{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: Ubuntu;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.logo-container {
+  position: relative;
+  height: 400px; /* Adjust the container height as needed */
+  overflow: hidden;
+  margin-top: -150px;
+}
+
+.logo-wrapper {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  flex-direction: row;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  width: 200px; /* Adjust the logo size as needed */
+  height: auto;
+  margin: 50px;
+  animation: logo-animation 55s linear infinite;
+}
+
+@keyframes logo-animation {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}

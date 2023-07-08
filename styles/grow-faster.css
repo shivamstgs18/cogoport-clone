@@ -1,0 +1,38 @@
+.grow-faster{
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  align-items: center;
+  background-color: rgb(238, 52, 37);
+  margin-top:-5px ;
+  width: 100%;
+  margin: auto;
+}
+.gf-msg1{
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 45px;
+  color: white;
+  margin-left: 150px;
+  margin-top: -10px;
+}
+.gf-msg2{
+  font-family: PT Sans;
+  margin-top: -20px;
+  color: white;
+  font-size: 25px;
+  margin-left: 150px;
+}
+.gf-button{
+  height: 60px;
+  width: 180px;
+  border-radius: 6px;
+  border: none;
+  font-family: PT Sans;
+  background-color:rgba(248,219,5,255);
+  font-weight: 700;
+  font-size: 20px;
+  margin-left:1000px;
+  align-items: center;
+  justify-content: center;
+}

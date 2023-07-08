@@ -1,0 +1,26 @@
+.stats{
+  
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1750px;
+  margin-left: 160px;
+}
+.stat1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number{
+  font-size: 60px;
+  font-family: Ubuntu;
+  color: rgb(238, 52, 37);
+  font-weight: 700;
+}
+.text{
+  font-size: 22px;
+  font-family: Ubuntu;
+  font-weight: 700;
+}
