@@ -1,5 +1,5 @@
 .work-header{
-  font-size: 40px;
+  font-size: 28px;
   display: flex;
   justify-content: center;
   font-family: Ubuntu;
@@ -7,9 +7,8 @@
   margin-top: 100px;
 }
 .work-buttons{
-  width: 800px;
-  margin-left: 600px;
-  margin-top: 30px;
+  width: 100%;
+  margin-top: 10px;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -18,12 +17,12 @@
 }
 .two-button{
   background-color: lightgrey;
-  height: 60px;
-  width: 300px;
+  height: 40px;
+  width: 200px;
   border: none;
   border-radius: 25px;
   font-family: Ubuntu;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 700;
   cursor: pointer;
 }

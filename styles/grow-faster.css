@@ -1,38 +1,41 @@
 .grow-faster{
   display: flex;
   flex-direction: row;
-  height: 250px;
+  height: 170px;
   align-items: center;
+  justify-content: space-around;
   background-color: rgb(238, 52, 37);
-  margin-top:-5px ;
+  margin-top:-4px ;
   width: 100%;
-  margin: auto;
+
+}
+.grow-content{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
 }
 .gf-msg1{
   font-family: Ubuntu;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 28px;
   color: white;
-  margin-left: 150px;
-  margin-top: -10px;
 }
 .gf-msg2{
   font-family: PT Sans;
   margin-top: -20px;
   color: white;
-  font-size: 25px;
-  margin-left: 150px;
+  font-size: 16px;
 }
 .gf-button{
-  height: 60px;
-  width: 180px;
+  height: 40px;
+  width: 120px;
   border-radius: 6px;
   border: none;
   font-family: PT Sans;
   background-color:rgba(248,219,5,255);
   font-weight: 700;
-  font-size: 20px;
-  margin-left:1000px;
+  font-size: 14px;
+  margin-left: 510px;
   align-items: center;
   justify-content: center;
 }

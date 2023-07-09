@@ -1,55 +1,55 @@
 .get-started-today{
-  height: 500px;
   display: flex;
   flex-direction: row;
-  margin-top: 200px;
+  margin-top: 100px;
+  width: 100%;
+  justify-content: space-around;
 }
 .left-get-section{
   display:flex;
   flex-direction: column;
   justify-content: center;
-  width: 800px;
   height: 400px;
-  margin-left: 280px;
-  margin-top: 30px;
+  margin-left: 100px;
 }
 
 .first-get{
   font-family: Ubuntu;
   font-weight: 700;
-  font-size:60px ;
+  font-size:40px ;
 }
 .second-get{
   font-family: PT Sans;
   font-weight: 400;
-  font-size:24px ;
+  font-size:14px ;
   margin-top: -15px;
 }
 .third-get{
   font-family: PT Sans;
   font-weight: 400;
-  font-size:21px ;
-  margin-top: -10px;
+  font-size:14px ;
+  margin-top: -2px;
 }
 .get-started-button2{
-  height: 60px;
-  width: 230px;
-  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  border-radius: 6px;
   border: none;
   font-family: PT Sans;
   color: white;
   background-color:rgb(238, 52, 37);
   font-weight: 700;
-  font-size: 22px;
+  font-size: 14px;
   align-items: center;
   margin-left: 0px;
   justify-content: center;
 }
 
 .right-get-section{
-  margin-left: 270px;
+  margin-left: 120px;
   position: relative;
   animation: levitate 4s ease-in-out infinite;
+  margin-right: 100px;
 }
 @keyframes levitate {
   0% {

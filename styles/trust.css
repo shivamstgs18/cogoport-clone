@@ -1,16 +1,16 @@
 .trust-header{
-  font-size: 40px;
+  font-size: 28px;
   display: flex;
   justify-content: center;
   font-family: Ubuntu;
   font-weight: 700;
-  margin-top: 100px;
+  margin:auto
 }
 .logo-container {
   position: relative;
   height: 400px; /* Adjust the container height as needed */
   overflow: hidden;
-  margin-top: -150px;
+  margin-top: -100px;
 }
 
 .logo-wrapper {
@@ -23,9 +23,9 @@
 }
 
 .logo {
-  width: 200px; /* Adjust the logo size as needed */
+  width: 146px; /* Adjust the logo size as needed */
   height: auto;
-  margin: 50px;
+  margin: 73px;
   animation: logo-animation 55s linear infinite;
 }
 

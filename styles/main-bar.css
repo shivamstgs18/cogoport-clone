@@ -1,41 +1,41 @@
 .main-content{
   background-color:rgba(248,219,5,255);
-  height: 600px;
+  height: 450px;
   display:flex;
   flex-direction: row;
+  justify-content: space-around;
   width: 100%;
   margin: auto;
 }
 .left-main-section{
-  background-color:rgba(248,219,5,255);
-  width: 800px;
-  height: 500px;
-  margin-left: 100px;
-  margin-top:100px;
+  margin: auto;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .first-line{
   font-family: Ubuntu;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
 }
 .second-line{
   font-family: PT Sans;
-  font-size: 22px;
-  width:550px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .third-line{
   font-family: PT Sans;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 700;
 }
 .info-container {
   display: flex;
   align-items: center;
-  height: 60px;
-  width: 550px;
+  width: 70%;
+  height: 40px;
   background-color: white;
   /* margin-left: 10px;
   margin-right: 250px; */
@@ -44,50 +44,47 @@
 
 .dropdown {
   margin-right: 10px;
-  margin-left: 10px;
-  width: 70px;
-  height: 50px;
+  width: 50px;
+  height: 25px;
   border-color: white;
-  font-size: 23px;
+  font-size: 12px;
 }
 
 .whatsapp-number {
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 12px;
   font-family: Arial;
-  width: 200px;
-  height:45px;
+  width: 100px;
+  height:15px;
+  margin-top: -2px;
+  border-radius: 30px;
   border-color: white;
   border-style: solid;
 }
 .get-started-button {
   background-color: #36bb22;
   color: #fff;
-  font-size:20px;
+  font-size:14px;
   font-family: PT Sans;
   font-weight: 700;
   cursor: pointer;
   border-radius: 20px;
   border: none;
-  width: 150px;
-  height: 40px;
-  margin-left: 25px;
+  width: 90px;
+  height: 25px;
+  margin-left: 70px;
 }
 .video-container {
   
-  width: 850px; /* Adjust the width as needed */
-  height: 850px; /* Adjust the height as needed */
-  margin-top: -96px;
-  margin-left: 90px;
-  margin-bottom: 30px;
+  width: 584px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  margin-top: 73px;
+  margin-right: 100px;
 }
 
 .video {
   width: 100%;
   height: 100%;
-  
-  top: 0;
-  left: 0;
 }
 
 @media (max-width: 820px) {

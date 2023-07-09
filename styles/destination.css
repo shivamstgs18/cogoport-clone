@@ -1,6 +1,8 @@
 .destinations{
   background-color:rgb(235, 190, 0);
   height: 600px;
+  width: 100%;
+  margin: auto;
 }
 .destination-col{
   display: flex;

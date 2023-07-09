@@ -1,10 +1,10 @@
 .product-header{
-  font-size: 40px;
+  font-size: 28px;
   display: flex;
   justify-content: center;
   font-family: Ubuntu;
   font-weight: 700;
-  margin-top: 12px;
+  margin-top: -50px;
 }
 .our-products{
   display: flex;
@@ -15,52 +15,53 @@
   height: 330px;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: -30px;
 }
 .product-grid-two{
   display: flex;
   height: 330px;
+  margin-top: -70px;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 .grid-title{
-  font-size: 35px;
+  font-size: 24px;
   font-family: Ubuntu;
   font-weight: 700;
-  margin-left: 100px;
-  width: 500px;
+  width: 25%;
+  margin-left: 50px;
 }
 .grid-title-two{
-  font-size: 35px;
+  font-size: 24px;
   font-family: Ubuntu;
   font-weight: 700;
-  height: 100px;
-  margin-left: 100px;
-  width: 500px;
+  width: 20%;
+  margin-right: -40px;
 }
 .row-grid{
-  margin-left:10px;
-  width:1300px;
-  height:300px;
+  width:70%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  margin-left: -100px;
+  justify-content: space-around;
   align-items: center;
 }
 .row-grid-two{
-  margin-left:13px;
-  width:620px;
-  height:300px;
+
+  width:35%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  margin-right: 470px;
 }
 .button-prac{
   display: flex;
   flex-direction: column;
-  height:260px;
-  width: 280px;
+  height:180px;
+  width: 204px;
   border-radius: 10px;
   cursor: pointer;
   align-items: center;
@@ -76,12 +77,12 @@
 }
 .para{
   font-family: Ubuntu;
-  font-size: 25px;
+  font-size: 14px;
   font-weight: 700;
 }
 .further{
   font-family: PT Sans;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 700;
   color:rgb(238, 52, 37);
 }

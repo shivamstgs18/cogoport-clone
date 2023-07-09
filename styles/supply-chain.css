@@ -1,24 +1,19 @@
-.supply-chain-back{
-  height: 550px;
-}
 .supply-chain{
   height: 500px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 1800px;
-  margin-left: 100px;
-  
-  margin-top: 50px;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
 }
 .first-sc-line{
   font-family: Ubuntu;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
 }
 .second-sc-line{
   margin-top:-40px;
   font-family: PT Sans;
-  font-size: 19px;
+  font-size: 14px;
 }

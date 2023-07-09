@@ -5,8 +5,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1750px;
-  margin-left: 160px;
+  width:90%;
+  margin: auto;
+  margin-top: -40px;
 }
 .stat1{
   display: flex;
@@ -14,13 +15,14 @@
   align-items: center;
 }
 .number{
-  font-size: 60px;
+  font-size: 40px;
   font-family: Ubuntu;
   color: rgb(238, 52, 37);
   font-weight: 700;
 }
 .text{
-  font-size: 22px;
+  font-size: 14px;
   font-family: Ubuntu;
   font-weight: 700;
 }
+

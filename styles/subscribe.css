@@ -1,40 +1,41 @@
 .normal-container{
   background-color: rgba(248,219,5,255);
   height: 100px;
-  margin-top: 100px;
+  margin-top: 50px;
+  width: 100%;
 }
 
 .curved-container {
   background-color:rgb(252, 247, 247);
-  border-radius: 0 0 50% 50% /200px;
+  border-radius: 0 0 100% 100% /200px;
   padding: 20px;
   text-align: center;
+  width: 100%;
 }
 
 .subscribe-container{
 
   background-color:rgba(248,219,5,255);
-  height: 500px;
+  height: 300px;
+  width: 100%;
 }
 
 .subscribe-box{
   display: flex;
   flex-direction: row;
-  height: 400px;
-  width: 1500px;
-  margin-left: 500px;
   align-items: center;
+  justify-content:center;
 }
 
 .first-sub{
   font-family: Ubuntu;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 700;
 }
 
 .second-sub{
   font-family: PT Sans;
-  font-size: 23px;
+  font-size: 16px;
   margin-top: -30px;
 }
 
@@ -52,10 +53,10 @@
   padding: 8px;
   border-radius: 15px 0 0 15px;
   border: 1px solid #ccc;
-  height: 50px;
+  height: 30px;
   font-family: Ubuntu;
-  font-size:20px;
-  width: 350px;
+  font-size:13.33px;
+  width: 260px;
   border: none;
 }
 
@@ -64,14 +65,14 @@
   padding: 8px 12px;
   border: 1px solid #ccc;
   color: white;
-  height: 69px;
+  height: 50px;
   font-family: PT Sans;
   font-weight: 700;
-  font-size:20px;
+  font-size:14px;
   border-radius: 0 15px 15px 0;
   background-color:rgb(238, 52, 37);
   cursor: pointer;
-  width:180px;
+  width:120px;
 }
 
 .arrow {
