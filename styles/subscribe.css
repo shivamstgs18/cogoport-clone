@@ -6,9 +6,10 @@
 }
 
 .curved-container {
-  background-color:rgb(252, 247, 247);
+  background-color:white;
   border-radius: 0 0 100% 100% /200px;
-  padding: 20px;
+  /* padding: 20px; */
+  height: 100px;
   text-align: center;
   width: 100%;
 }

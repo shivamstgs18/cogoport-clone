@@ -25,3 +25,12 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 860px) {
+  .next-level{
+    width:100%;
+        display: flex;
+        flex-direction: column;
+  }
+    
+  }

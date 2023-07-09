@@ -1,5 +1,5 @@
 .supply-chain{
-  height: 500px;
+  /* height: 500px; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -17,3 +17,12 @@
   font-family: PT Sans;
   font-size: 14px;
 }
+@media (max-width: 860px) {
+  .supply-chain{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80%;
+        margin:auto;
+  }
+    
+  }

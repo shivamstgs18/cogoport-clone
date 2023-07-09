@@ -1,5 +1,4 @@
 .stats{
-  
   height: 350px;
   display: flex;
   flex-direction: row;
@@ -7,7 +6,7 @@
   align-items: center;
   width:90%;
   margin: auto;
-  margin-top: -40px;
+  margin-top: -40px!important;
 }
 .stat1{
   display: flex;
@@ -26,3 +25,14 @@
   font-weight: 700;
 }
 
+ @media (max-width: 860px) {
+.stats{
+      display: flex;
+      flex-wrap: wrap;
+      width: 80%;
+      text-align: left;
+      margin-bottom: 30px;
+      margin:auto;
+} 
+  
+} 
