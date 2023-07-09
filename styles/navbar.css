@@ -5,9 +5,9 @@
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  position: fixed;
   width: 100%;
   z-index: 100;
+  position: fixed;
 }
 
 .navbar.scrolled{
@@ -57,4 +57,28 @@
   border-color:rgb(238, 52, 37);
   height:30px;
   width:80px;
+}
+
+@media (max-width: 860px){
+
+  .navbar{
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    width: 100%;
+  }
+  .middle-section{
+    display: none;
+  }
+  
+  .right-section{
+    display: none;
+  }
+
+  .cogoport_logo_navbar{
+    width:150px;
+    height:auto;
+    margin-left: 0px;
+    margin-top:10px;
+  }
 }

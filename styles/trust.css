@@ -4,7 +4,7 @@
   justify-content: center;
   font-family: Ubuntu;
   font-weight: 700;
-  margin:auto
+  margin:auto;
 }
 .logo-container {
   position: relative;
@@ -36,4 +36,26 @@
   100% {
     transform: translateX(-100vw);
   }
+}
+@media (max-width: 820px) {
+  .trust-header{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: Ubuntu;
+  font-weight: 700;
+  margin:auto;
+}
+.logo {
+  width: 100px; /* Adjust the logo size as needed */
+  height: auto;
+  margin: 20px;
+  animation: logo-animation 55s linear infinite;
+}
+.logo-container {
+  position: relative;
+  height: 400px; /* Adjust the container height as needed */
+  overflow: hidden;
+  margin-top:-150px;
+}
 }

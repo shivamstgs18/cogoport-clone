@@ -6,7 +6,7 @@
 }
 
 .curved-container {
-  background-color:white;
+  background-color:rgb(252, 247, 247);
   border-radius: 0 0 100% 100% /200px;
   /* padding: 20px; */
   height: 100px;
@@ -78,4 +78,22 @@
 
 .arrow {
   margin-left: 6px;
+}
+
+@media (max-width: 860px) {
+
+  .sub-image{
+      display: none;
+  }
+  .subscribe-container2 {
+    width: 90%;
+  }
+  .first-sub{
+    font-size: 23px;
+  }
+  
+  .second-sub{
+    font-size: 16px;
+    margin-top: -10px;
+  }
 }

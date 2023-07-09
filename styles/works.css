@@ -30,3 +30,23 @@
 .two-button.selected{
   background-color:rgba(248,219,5,255) ;
 }
+
+@media (max-width: 860px){
+
+  .work-header{
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .work-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .two-button{
+    width: 50%;
+    font-size: 14px;
+  }
+}

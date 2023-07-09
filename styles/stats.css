@@ -29,10 +29,16 @@
 .stats{
       display: flex;
       flex-wrap: wrap;
-      width: 80%;
+      width: 70%;
+      justify-content: space-around;
       text-align: left;
       margin-bottom: 30px;
       margin:auto;
 } 
-  
+.number{
+  font-size: 30px;
+}
+.text{
+  font-size: 12px;
+}
 } 

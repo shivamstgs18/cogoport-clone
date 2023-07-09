@@ -39,3 +39,23 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 860px){
+  .grow-faster{
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    align-items: center;
+    background-color: rgb(238, 52, 37);
+    width: 100%;
+  }
+  .gf-msg1{
+    font-size: 25px;
+  }
+  .gf-msg2{
+    font-size: 13px;
+  }
+  .gf-button{
+    margin-left: -200px;
+  }
+}
