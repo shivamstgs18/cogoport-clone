@@ -4,7 +4,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin: auto;
+  margin-top: 200px;
   width: 100%;
 }
 .first-sc-line{
@@ -23,6 +23,7 @@
         flex-direction: column-reverse;
         width: 80%;
         margin:auto;
+        margin-top: 80px;
         justify-content: left;
   }
   .first-sc-line{

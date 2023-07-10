@@ -1,21 +1,23 @@
 .stats{
-  height: 350px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width:90%;
-  margin: auto;
-  margin-top: -40px!important;
+  width:80%;
+  margin-left: 100px;
+  margin-top: 80px;
 }
-.stat1{
+.stats1{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-bottom:10px;
+  justify-content: center;
+  text-align: center;
 }
 .number{
   font-size: 40px;
   font-family: Ubuntu;
+  margin-bottom: 10px;
   color: rgb(238, 52, 37);
   font-weight: 700;
 }
@@ -30,13 +32,19 @@
       display: flex;
       flex-wrap: wrap;
       width: 70%;
-      justify-content: space-around;
-      text-align: left;
-      margin-bottom: 30px;
-      margin:auto;
+      justify-content: space-between;
+      margin: auto;
+      margin-top: 0px;
 } 
+.stats1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 .number{
-  font-size: 30px;
+  margin-top: 30px;
+  font-size: 20px;
 }
 .text{
   font-size: 12px;

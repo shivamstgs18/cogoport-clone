@@ -9,7 +9,9 @@
   z-index: 100;
   position: fixed;
 }
-
+.ham-svg{
+  display: none;
+}
 .navbar.scrolled{
   top:0;
 }
@@ -18,6 +20,19 @@
   font-size: 14px;
   font-family: Ubuntu;
   font-weight: 500;
+}
+.nav-tools:hover {
+
+  cursor: pointer;
+  color: red;
+}
+.login-click:hover {
+  
+  cursor: pointer;
+}
+.signup-button:hover {
+  
+  cursor: pointer;
 }
 .cogoport_logo_navbar{
   width:150px;
@@ -65,7 +80,7 @@
     display: flex;
     justify-content: left;
     position: fixed;
-    width: 100%;
+    width: 80%;
   }
   .middle-section{
     display: none;
@@ -74,7 +89,19 @@
   .right-section{
     display: none;
   }
-
+  .ham-svg{
+    display: block;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(248,219,5,255);
+  }
+  .left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    border-color:rgba(248,219,5,255);
+  }
   .cogoport_logo_navbar{
     width:150px;
     height:auto;

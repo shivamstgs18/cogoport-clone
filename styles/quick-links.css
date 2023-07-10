@@ -25,3 +25,9 @@
   font-size: 20px;
   text-decoration: underline;
 }
+
+@media (max-width: 860px) {
+  .quick-links{
+  display: none;
+  }
+}

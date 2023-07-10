@@ -44,7 +44,7 @@
   justify-content: center;
   font-family: Ubuntu;
   font-weight: 700;
-  margin:auto;
+  margin-top: 50px;
 }
 .logo {
   width: 100px; /* Adjust the logo size as needed */

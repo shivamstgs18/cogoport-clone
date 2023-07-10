@@ -34,7 +34,7 @@
 
 @media (max-width: 860px) {
   .industry-served{
-    font-size: 18px;
+    font-size: 24px;
     display: flex;
     justify-content: center;
     font-family: Ubuntu;
@@ -49,6 +49,6 @@
     justify-content: space-around;
     width: 50%;
     margin-top: 50px;
-    margin-left:110px;
+    margin-left:100px;
   }
 }
